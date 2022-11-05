@@ -4,7 +4,6 @@ import Post from '../components/Post'
 import styled from 'styled-components';
 import { getPosts } from '../sevices';
 import Sidebar from '../components/Sidebar';
-import Categories from '../components/Categories';
 
 
 export default function Home({ posts }) {

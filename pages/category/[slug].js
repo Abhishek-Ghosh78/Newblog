@@ -1,6 +1,5 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-import Categories from '../../components/Categories';
 import Loader from '../../components/Loader';
 
 import { getCategories, getCategoryPost } from '../../sevices';
@@ -23,11 +22,7 @@ const CategoryPost = ({ posts }) => {
             <Post key={index} post={post.node} />
           ))}
         </div>
-        <div >
-          <div className="">
-            <Categories />
-          </div>
-        </div>
+  
       </div>
     </div>
   );

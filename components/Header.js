@@ -1,14 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
-import { useState, useEffect } from 'react'
-import { getCategories } from '../sevices';
+
 
 
 const Header = () => {
-
-
-
 
   return (
     <Nav>
