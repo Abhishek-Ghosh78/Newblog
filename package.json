@@ -9,11 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.0.0",
+    "html-react-parser": "^3.0.4",
+    "moment": "^2.29.4",
     "next": "13.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-multi-carousel": "^2.8.2",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.1"
   }
